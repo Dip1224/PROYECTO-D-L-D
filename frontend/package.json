@@ -1,0 +1,23 @@
+{
+  "name": "plataforma-gestion-universitaria-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para la Plataforma de Gestión Universitaria con Integración de IA y Big Data",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "chart.js": "^3.6.0",
+    "d3": "^7.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

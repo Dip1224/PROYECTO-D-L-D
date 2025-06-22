@@ -1,0 +1,21 @@
+{
+  "name": "plataforma-gestion-universitaria-backend",
+  "version": "1.0.0",
+  "description": "Backend para la Plataforma de Gestión Universitaria con Integración de IA y Big Data",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
