@@ -1,57 +1,63 @@
-# Plataforma de Gestión Universitaria
+# Personal Portfolio
 
-## Descripción del Proyecto
-Esta plataforma web permite gestionar estudiantes, clases y especializaciones, además de generar reportes interactivos sobre la distribución de estudiantes. Incorpora funcionalidades de inteligencia artificial para predecir el rendimiento académico y de Big Data para analizar grandes volúmenes de datos.
+This is a personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-## Tecnologías Utilizadas
-- **Frontend:**
-  - HTML5
-  - CSS3
-  - JavaScript
-  - React.js
-  - Chart.js o D3.js
+## Features
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MySQL
-  - Sequelize (opcional)
+- Responsive design
+- Dark mode support
+- Project showcase
+- Skills section
+- Contact form
 
-- **Inteligencia Artificial y Big Data:**
-  - Python
-  - Scikit-learn o TensorFlow
-  - Apache Spark (opcional)
-  - Pandas
+## Technologies Used
 
-## Instalación
-1. Clona el repositorio:
-   ```
-   git clone <URL_DEL_REPOSITORIO>
-   ```
-2. Navega al directorio del frontend:
-   ```
-   cd plataforma-gestion-universitaria/frontend
-   ```
-3. Instala las dependencias:
-   ```
-   npm install
-   ```
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
+- Framer Motion for animations
 
-## Uso
-Para iniciar la aplicación, ejecuta el siguiente comando en el directorio del frontend:
+## Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
 ```
-npm start
+
+Then, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
-Esto abrirá la aplicación en tu navegador predeterminado.
 
-## Estructura del Proyecto
-- **frontend/**: Contiene la aplicación frontend construida con React.
-- **backend/**: Contiene la lógica del servidor y la conexión a la base de datos.
-- **ia-bigdata/**: Contiene scripts y modelos para análisis de IA y Big Data.
-- **database/**: Contiene el esquema de la base de datos.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o envía un pull request.
+## Environment Variables
 
-## Licencia
-Este proyecto está bajo la Licencia MIT.
+To make the contact form work properly, create a `.env` file in the root directory with the following variables:
+
+```bash
+# Contact form (example using EmailJS)
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
+```
+
+## Customization
+
+### Modifying User Information
+
+To customize the portfolio with your personal information:
+
+1. Edit the user data in `src/data/personalInfo.ts` file to update your name, bio, skills, and social links
+2. Replace profile or project images in the `public/` directory
+
+## License
+
+This project is free to use, modify, and distribute without any specific license requirements. Feel free to customize it for your own portfolio.

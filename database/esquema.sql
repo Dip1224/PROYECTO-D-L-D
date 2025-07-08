@@ -28,4 +28,4 @@ CREATE TABLE inscripciones (
     fecha_inscripcion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (estudiante_id) REFERENCES estudiantes(id) ON DELETE CASCADE,
     FOREIGN KEY (clase_id) REFERENCES clases(id) ON DELETE CASCADE
-);
+);npm run dev
